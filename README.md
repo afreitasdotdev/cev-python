@@ -1,4 +1,4 @@
-# THIS IS A NON OFFICIAL REPOSITORY FOR Curso em Video - Python
+# NON OFFICIAL REPO FOR Curso em Video - Python
 
 ## VIDEOS
 
