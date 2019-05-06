@@ -3,10 +3,16 @@
 # numero pelo teclado (entre 0 e 20) e mostra-lo por extenso.
 
 numeros = ('zero','um','dois','tres','quatro','cinco',
-            'seis','sete', 'oito', 'nove', 'dez', 'onze'
+            'seis','sete', 'oito', 'nove', 'dez', 'onze',
             'doze', 'treze','quatorze', 'quinze','dezesseis',
             'dezesete', 'dezoito','dezenove','vinte')
 
-entrada = int(input('Digite um numero de 0 à 20: '))
+while True:
+    entrada = int(input('Digite um numero de 0 à 20: '))
+    if 0 <= entrada <= 20:
+        print(f'Você digitou {numeros[entrada]}')
+        continua = input('Voce quer continuar S/N? ').upper()
+        if continua == 'N':
+            break
 
-print(f'Você digitou {numeros[entrada]}')
+print('Finalizando!')

@@ -14,7 +14,10 @@ primeiros = print(f'''Primeiros classificados: \n
 ultimos = print(f'''Ultimos classificados: \n
     {classificacao[-4:]}''')
 
+print(f'Times em ordem alfabetica: {sorted(classificacao)}')
+
 for pos, time in enumerate(classificacao):
     if time == 'Chapecoense':
-        print(f'\nA {time} está em {pos+1}ºlugar')
-    
+        print(f'\nA {time} está em {pos+1} ºlugar')
+
+# print(f'Chapecoense está em {classificacao.index("Chapecoense")+1} ºlugar')
