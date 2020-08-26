@@ -1,4 +1,4 @@
-algo = input('Digite algo')
+algo = input('Digite algo: ')
 
 print('O valor é do tipo ', type(algo))
 print('O valor é somente espaços?', algo.isspace())
